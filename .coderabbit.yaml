@@ -1,0 +1,64 @@
+# CodeRabbit Configuration for knowthankyew
+# Targeted Scope: Public Organization Profile, Ecosystem Directory & Open-Source Governance
+
+language: "en-US"
+
+reviews:
+  profile: "assertive"
+  request_changes_workflow: false
+  high_level_summary: true
+  poem: false
+  sequence_diagrams: true
+  auto_review:
+    enabled: true
+    drafts: false
+
+  # Filter out media assets and local caches
+  path_filters:
+    - "!**/*.png"
+    - "!**/*.svg"
+    - "!**/*.gif"
+    - "!**/*.mp4"
+    - "!bom.json"
+
+  path_instructions:
+    - path: "**/*"
+      instructions: |
+        You are performing a documentation accuracy, architectural fidelity, and open-source governance audit for "knowthankyew", the public organization profile and directory repository for the KnowThankYew portfolio.
+
+        Implementation metrics, test inventories, and architecture schemas are formally governed by the canonical Master Brief (`KNOWTHANKYEW_PORTFOLIO_MASTER_BRIEF.md`) supplied via the linked `knowthankyew/portfolio-admin` repository.
+
+        Evaluate all files against these invariants:
+
+        1. PORTFOLIO FIDELITY & REPOSITORY DIRECTORY ACCURACY:
+           - In `README.md`, ensure all documented repositories, links, descriptions, and technology stacks accurately match the active codebase architectures across the KnowThankYew suite:
+             - `knowthankyew-extension`: Client-side Manifest V3 Point-of-Sale advocate (zero document egress).
+             - `careCheck`: Medical billing & Section 501(r) charity care reality engine.
+             - `bill-of-rights-bot`: Auto-renewal subscription audit & ROSCA compliance.
+             - `lease-audit`: Residential lease agreement analyzer.
+             - `paystub-check`: FLSA & state wage-and-hour statement compliance.
+             - `warranty-watch`: Magnuson-Moss & state lemon law analyzer.
+             - `mac-screen-record`: Native macOS zero-egress screen recorder (Apple Silicon/Intel).
+             - `kty-ntfs`: Evidence-grade user-space NTFS engine & daemon for macOS (Apple FSKit).
+             - `gradcast`: Dual-mode Lakehouse (.NET 10 + Vue 3).
+             - `mailStripper`: Automated email unsubscribe engine (.NET 10 + Playwright).
+             - `event-driven-ftaas (ml)`: Tri-model empirical legal reasoning engine.
+             - `privacy-telemetry`: Canonical in-memory telemetry runtime & schemas.
+             - `policy-packs`: Canonical statutory policy specifications.
+
+        2. INVARIANT FIDELITY:
+           - Ensure the documented 5 Core Invariants (Zero Document Egress, Amnesiac Storage, Strict Allowlist Telemetry, Single Source of Truth for Claims, Universal Supply Chain Integrity) are faithfully represented.
+           - Prohibit unprovable marketing superlatives ('bulletproof', 'conclusive', 'definitive', 'infinitely scalable').
+
+        3. LICENSING & ATTRIBUTION:
+           - Verify that `LICENSE` is MIT and that project descriptions accurately reflect individual project licensing (e.g. `kty-ntfs` process boundary distinction under GPL-2.0-or-later).
+
+knowledge_base:
+  opt_out: false
+  learnings:
+    scope: "auto"
+  linked_repositories:
+    - repository: "knowthankyew/portfolio-admin"
+      instructions: "Contains canonical portfolio integration standards, Master Brief assertions (KNOWTHANKYEW_PORTFOLIO_MASTER_BRIEF.md), and administrative compliance specifications governing all downstream repositories."
+    - repository: "knowthankyew/privacy-telemetry"
+      instructions: "Contains canonical zero-egress invariants and privacy schemas for the KnowThankYew suite."
