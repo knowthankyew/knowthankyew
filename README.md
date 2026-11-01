@@ -44,7 +44,7 @@ Across the entire consumer reality suite:
 
 ### 🧠 Platform Services & Machine Learning
 * **[event-driven-ftaas](https://github.com/knowthankyew/event-driven-ftaas)** — **Fine-Tuning as a Service (FTaaS)**  
-  *Asynchronous, event-driven domain adapter training platform. Polyglot architecture featuring a .NET 10 control plane, RabbitMQ AMQP broker, Python/PyTorch PEFT/LoRA worker, 1.58-bit BitNet runtime, OpenTelemetry W3C distributed tracing, and air-gapped ONNX edge export.*
+  *Asynchronous, event-driven domain adapter training platform. Tri-model architecture featuring Gemma 2 2B IT production default, SmolLM2-135M edge ONNX export, BitNet 1.58-bit CPU engine, .NET 10 control plane, RabbitMQ broker, PyTorch LoRA worker, and MIT surprisal-service arbiter.*
 * **[gradcast](https://github.com/knowthankyew/gradcast)** — **Higher Education ROI Simulator**  
   *Civic open-data engine connecting U.S. Dept of Education College Scorecard metrics with post-graduation HUD fair market rent, local tax brackets, and student debt amortizations (.NET 10 + Vue 3 + Delta Lake).*
 * **[mail-stripper](https://github.com/knowthankyew/mail-stripper)** — **Email Privacy Sanitizer**  
