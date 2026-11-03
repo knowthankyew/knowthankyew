@@ -62,17 +62,19 @@ Across the entire consumer reality suite:
 
 ---
 
-### 🖥️ Native Desktop & Forensic Storage Engines
+### 🖥️ Native Desktop, Systems & Forensic Storage Engines
 * **[mac-screen-record](https://github.com/knowthankyew/mac-screen-record)** — **Native macOS Screen & Evidence Studio**  
   *Pure native Swift/ScreenCaptureKit video and audio capture studio. Zero external dependencies, hardware-accelerated ProRes/HEVC encoding, Apple Silicon Neural Engine presenter cutouts, and zero network egress.*
 * **[kty-ntfs](https://github.com/knowthankyew/kty-ntfs)** — **User-Space NTFS & Forensic Engine**  
   *Forensic-grade, zero-KEXT NTFS read/write engine for macOS Sonoma & Sequoia built on Apple FSKit. Features in-RAM metadata suppression and streaming cryptographic SHA-256/BLAKE3 alternate data streams.*
+* **[genesis](https://github.com/knowthankyew/genesis)** — **High-Performance In-Memory Log & Telemetry Engine**  
+  *Single-binary, zero-dependency in-memory telemetry engine in 100% Go standard library. Sustains 277k+ lines/sec over live TCP sockets across 5s time-partitioned doubly-linked SkipLists with $O(1)$ partition eviction, dual-channel QoS priority routing, an embedded zero-CDN Web UI, and `<5ms` Amnesiac Burn.*
 
 ---
 
 ## 🛠️ Technology Stack Overview
 
-* **Languages:** TypeScript, C# (.NET 10), Python 3.12, Swift, C / Objective-C
+* **Languages:** TypeScript, C# (.NET 10), Python 3.12, Go (1.22 Stdlib), Swift, C / Objective-C
 * **Frontend / Web:** React 19, React 18, Vue 3, Vite, Manifest V3, WebGPU/WASM, TailwindCSS
 * **Backend / Systems:** ASP.NET Core, FastAPI, RabbitMQ, Apple FSKit, PyTorch, PEFT/LoRA, ONNX
 * **Observability:** OpenTelemetry (OTel/OTLP), W3C Distributed Tracing, Prometheus, Grafana, MLflow
