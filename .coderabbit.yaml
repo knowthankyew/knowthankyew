@@ -43,6 +43,8 @@ reviews:
              - `genesis`: High-performance, zero-dependency in-memory log & telemetry engine in Go stdlib (passed all original challenge benchmark gates, 1.04M+ lines/s, 4.29 ms P99).
              - `gradcast`: Dual-mode Lakehouse (.NET 10 + Vue 3).
              - `mailStripper`: Air-gapped email privacy sanitizer, ingestion plane & static unsubscribe forensic engine (.NET 10 + MimeKit).
+             - `unsubscribe-shield-ext`: Client extension scaffold for local mailStripper forensics and sterile RFC 8058 execution.
+             - `mail-stripper-imap`: Protocol-level IMAP IDLE quarantine watcher and sterile opt-out daemon (.NET 10 + MailKit).
              - `event-driven-ftaas (ml)`: Tri-model empirical legal reasoning engine.
              - `privacy-telemetry`: Canonical in-memory telemetry runtime & schemas.
              - `policy-packs`: Canonical statutory policy specifications.

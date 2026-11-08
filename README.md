@@ -44,13 +44,21 @@ Across the entire consumer reality suite:
 
 ---
 
+### 📬 Email Privacy Suite & Forensics
+* **[mail-stripper](https://github.com/knowthankyew/mail-stripper)** — **Email Privacy Sanitizer & Unsubscribe Forensic Engine**  
+  *High-performance .NET 10 ingestion plane and MimeKit sanitizer. Statically inspects RFC 8058/2369 headers, structural DKIM bindings, and self-attested receiving MX provenance to expose poisoned unsubscribe traps (without establishing cryptographic message authenticity or proving target safety), defangs preview links, routes ML summarization locally by default (with remote endpoints configurable), and generates sterile POSIX curl commands.*
+* **[unsubscribe-shield-ext](https://github.com/knowthankyew/unsubscribe-shield-ext)** — **Forensic Unsubscribe & Sterile Opt-Out Extension (Scaffold / Companion A)**  
+  *Scaffolded client companion for browser extensions (Chromium MV3) and planned Thunderbird/webmail adapters. Implements the isolated, zero-cookie sterile executor pattern (`credentials: 'omit'`, `redirect: 'manual'`, immediate stream cancellation) for RFC 8058 One-Click opt-outs (with remote HTTP execution constrained until host permissions and connect-src policies are configured), interfaces with local `mailStripper` (:5001) over localhost HTTP, and features a sample-driven forensic verdict display with active-inbox recon warning modals while live user-message inspection adapters remain planned.*
+* **[mail-stripper-imap](https://github.com/knowthankyew/mail-stripper-imap)** — **Protocol-Level IMAP IDLE Quarantine Watcher & Daemon (Companion B)**  
+  *Protocol-level .NET 10 background daemon designed for IMAP IDLE push monitoring of dedicated mailboxes (`INBOX` or `@Safe-Unsubscribe`) with ongoing monitoring and paired response handling unverified against live IMAP servers. Operates with daemon-side volatile `MemoryStream` message buffers (noting paired `mailStripper` endpoints buffer multipart uploads over 64 KB to temporary disk by default). When folders resolve, candidate messages may be moved to quarantine or archive during initial sweeps regardless of whether opt-outs occurred, while automated sterile RFC 8058 dispatch requires explicit operator activation (`AutoExecuteSterileUnsubscribe: true`), which contacts sender endpoints and may confirm mailbox activity even without cookies.*
+
+---
+
 ### 🧠 Platform Services & Machine Learning
 * **[event-driven-ftaas](https://github.com/knowthankyew/event-driven-ftaas)** — **Fine-Tuning as a Service (FTaaS)**  
   *Asynchronous, event-driven domain adapter training platform. Tri-model architecture featuring Gemma 2 2B IT production default, SmolLM2-135M edge ONNX export, BitNet 1.58-bit CPU engine, .NET 10 control plane, RabbitMQ broker, PyTorch LoRA worker, and information-theoretic dataset ablation & attribution via the MIT surprisal-service arbiter.*
 * **[gradcast](https://github.com/knowthankyew/gradcast)** — **Higher Education ROI Simulator**  
   *Civic open-data engine connecting U.S. Dept of Education College Scorecard metrics with post-graduation HUD fair market rent, local tax brackets, and student debt amortizations (.NET 10 + Vue 3 + Delta Lake).*
-* **[mail-stripper](https://github.com/knowthankyew/mail-stripper)** — **Email Privacy Sanitizer & Unsubscribe Forensic Engine**  
-  *High-performance, air-gapped .NET 10 ingestion plane and MimeKit sanitizer. Statically inspects RFC 8058/2369 headers, verifies DKIM bindings and trusted receiving MX provenance to expose poisoned unsubscribe traps, defangs preview links, and generates sterile POSIX curl commands with zero external network egress.*
 
 ---
 
