@@ -49,8 +49,8 @@ Across the entire consumer reality suite:
   *Asynchronous, event-driven domain adapter training platform. Tri-model architecture featuring Gemma 2 2B IT production default, SmolLM2-135M edge ONNX export, BitNet 1.58-bit CPU engine, .NET 10 control plane, RabbitMQ broker, PyTorch LoRA worker, and information-theoretic dataset ablation & attribution via the MIT surprisal-service arbiter.*
 * **[gradcast](https://github.com/knowthankyew/gradcast)** — **Higher Education ROI Simulator**  
   *Civic open-data engine connecting U.S. Dept of Education College Scorecard metrics with post-graduation HUD fair market rent, local tax brackets, and student debt amortizations (.NET 10 + Vue 3 + Delta Lake).*
-* **[mail-stripper](https://github.com/knowthankyew/mail-stripper)** — **Email Privacy Sanitizer**  
-  *Strips surveillance tracking pixels, URL redirect wrappers, and spy headers from RFC 822 email payloads with automated headless Playwright unsubscription.*
+* **[mail-stripper](https://github.com/knowthankyew/mail-stripper)** — **Email Privacy Sanitizer & Unsubscribe Forensic Engine**  
+  *High-performance, air-gapped .NET 10 ingestion plane and MimeKit sanitizer. Statically inspects RFC 8058/2369 headers, verifies DKIM bindings and trusted receiving MX provenance to expose poisoned unsubscribe traps, defangs preview links, and generates sterile POSIX curl commands with zero external network egress.*
 
 ---
 
@@ -70,13 +70,13 @@ Across the entire consumer reality suite:
 * **[kty-ntfs](https://github.com/knowthankyew/kty-ntfs)** — **User-Space NTFS & Forensic Engine**  
   *Forensic-grade, zero-KEXT NTFS read/write engine for macOS Sonoma & Sequoia built on Apple FSKit. Features in-RAM metadata suppression and streaming cryptographic SHA-256/BLAKE3 alternate data streams.*
 * **[genesis](https://github.com/knowthankyew/genesis)** — **High-Performance In-Memory Log & Telemetry Engine**  
-  *Single-binary, zero-dependency in-memory telemetry engine in 100% Go standard library. Sustains 277k+ lines/sec over live TCP sockets across 5s time-partitioned doubly-linked SkipLists with $O(1)$ partition eviction, dual-channel QoS priority routing, an embedded zero-CDN Web UI, and `<5ms` Amnesiac Burn.*
+  *Single-binary, zero-dependency in-memory telemetry engine in 100% Go standard library. Sustains 1,046,322+ lines/sec TCP ingestion across sharded immutable micro-segments and zero-pointer (`noscan`) SkipLists with $O(1)$ partition eviction, passing all original systems challenge benchmark gates with 4.29 ms P99 query latency (<5ms target), dual-channel QoS priority routing, an embedded zero-CDN Web UI, and `<5ms` Amnesiac Burn.*
 
 ---
 
 ## 🛠️ Technology Stack Overview
 
-* **Languages:** TypeScript, C# (.NET 10), Python 3.12, Go (1.22 Stdlib), Swift, C / Objective-C
+* **Languages:** TypeScript, C# (.NET 10), Python 3.12, Go (1.24 Stdlib), Swift, C / Objective-C
 * **Frontend / Web:** React 19, React 18, Vue 3, Vite, Manifest V3, WebGPU/WASM, TailwindCSS
 * **Backend / Systems:** ASP.NET Core, FastAPI, RabbitMQ, Apple FSKit, PyTorch, PEFT/LoRA, ONNX
 * **Observability:** OpenTelemetry (OTel/OTLP), W3C Distributed Tracing, Prometheus, Grafana, MLflow

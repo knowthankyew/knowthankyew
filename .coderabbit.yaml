@@ -40,9 +40,9 @@ reviews:
              - `warranty-watch`: Magnuson-Moss & state lemon law analyzer.
              - `mac-screen-record`: Native macOS zero-egress screen recorder (Apple Silicon/Intel).
              - `kty-ntfs`: Evidence-grade user-space NTFS engine & daemon for macOS (Apple FSKit).
-             - `genesis`: High-performance, zero-dependency in-memory log & telemetry engine in Go stdlib.
+             - `genesis`: High-performance, zero-dependency in-memory log & telemetry engine in Go stdlib (passed all original challenge benchmark gates, 1.04M+ lines/s, 4.29 ms P99).
              - `gradcast`: Dual-mode Lakehouse (.NET 10 + Vue 3).
-             - `mailStripper`: Automated email unsubscribe engine (.NET 10 + Playwright).
+             - `mailStripper`: Air-gapped email privacy sanitizer, ingestion plane & static unsubscribe forensic engine (.NET 10 + MimeKit).
              - `event-driven-ftaas (ml)`: Tri-model empirical legal reasoning engine.
              - `privacy-telemetry`: Canonical in-memory telemetry runtime & schemas.
              - `policy-packs`: Canonical statutory policy specifications.
