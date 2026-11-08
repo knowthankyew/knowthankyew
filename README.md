@@ -1,7 +1,8 @@
 # Hi, I'm Courtlandt Harris (@knowthankyew) 👋
 
-> *"Knowledge belongs to life."*
-> *"Claims Are Measured, Not Asserted."*
+> *"knowledge belongs to life."*
+
+> *"claims are measured, not asserted."*
 
 I build **open-source reality engines and platform tooling** engineered to eliminate the information asymmetry between individual consumers and institutional bureaucracies. 
 
