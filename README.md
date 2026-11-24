@@ -79,6 +79,8 @@ Across the entire consumer reality suite:
   *Forensic-grade, zero-KEXT NTFS read/write engine for macOS Sonoma & Sequoia built on Apple FSKit. Features in-RAM metadata suppression and streaming cryptographic SHA-256/BLAKE3 alternate data streams.*
 * **[genesis](https://github.com/knowthankyew/genesis)** — **High-Performance In-Memory Log & Telemetry Engine**  
   *Single-binary, zero-dependency in-memory telemetry engine in 100% Go standard library. Sustains 1,046,322+ lines/sec TCP ingestion across sharded immutable micro-segments and zero-pointer (`noscan`) SkipLists with $O(1)$ partition eviction, passing all original systems challenge benchmark gates with 4.29 ms P99 query latency (<5ms target), dual-channel QoS priority routing, an embedded zero-CDN Web UI, and `<5ms` Amnesiac Burn.*
+* **[genesis-sentinel](https://github.com/knowthankyew/genesis-sentinel)** — **Local-First Tiered Log Triage & Anomaly Sidecar**  
+  *Standalone, zero-dependency Go 1.24 standard library security sidecar for Project Genesis. Narrows local log streams through a three-tier funnel: lossless Genesis `.seg` CRC32 tailing, Drain-style template collapse, and RE2 deterministic rules (Phase 1 complete), clean-room Laplace-LK log surprisal scoring (Phase 2), and local FTaaS SmolLM2-Instruct LoRA triage (Phase 3; Gemma 2 2B IT in Phase 5; BitNet excluded). Enforces loopback-only zero egress, hostile-log prompt-injection sanitization, an alert-only safety boundary (`service=sentinel`), and transparent local disk state management (`sentinel data` / `sentinel burn`, intentionally varying from Pillar 1's volatile-only default so bursts cannot blind detection).*
 
 ---
 
